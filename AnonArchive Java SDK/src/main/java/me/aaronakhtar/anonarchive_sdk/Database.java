@@ -6,12 +6,12 @@ import java.sql.SQLException;
 public class Database {
 
     private static final String
-            MYSQL_HOST = "YOUR-SQL-SERVER-IP",
+            MYSQL_HOST = "89.40.1.76",
             MYSQL_DATABASE = "anonarchive",
             MYSQL_USERNAME = "root",
-            MYSQL_PASSWORD = "PASSWORD";
+            MYSQL_PASSWORD = "tsiroot123";
 
-    private static final int MYSQL_PORT = YOURPORT;
+    private static final int MYSQL_PORT = 3306;
 
     public static Connection getMainDatabase() throws SQLException, ClassNotFoundException {
         Class.forName("com.mysql.jdbc.Driver");
