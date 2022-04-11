@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+          rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          rel="stylesheet"/>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
+    <!-- <link rel="stylesheet" href="assets/style.css"> -->
+    <title>Welcome - AnonArchive</title>
+
+    <style>
+        .tilt-title {
+            transition: transform 250ms ease-in-out;
+        }
+
+        .tilt-title:hover {
+            transform: rotate(-3deg);
+        }
+    </style>
+</head>
+<body class="bg-gray-900">
+<header class="text-gray-400 bg-gray-900 body-font">
+    <div
+            class="
+					container
+					mx-auto
+					flex flex-wrap
+					p-5
+					flex-col
+					md:flex-row
+					items-center
+				">
+        <a
+                class="
+						flex
+						title-font
+						font-medium
+						items-center
+						text-white
+						mb-4
+						md:mb-0
+					">
+            <span class="ml-3 text-xl tilt-title">[AnonArchive]</span>
+        </a>
+        <nav
+                class="
+						md:mr-auto
+						md:ml-4
+						md:py-1
+						md:pl-4
+						md:border-l md:border-gray-700
+						flex flex-wrap
+						items-center
+						text-base
+						justify-center
+					">
+            <a href="#" class="mr-5 hover:text-white">How it works</a>
+            <a href="#" class="mr-5 hover:text-white">Data Collection</a>
+            <a href="#" class="mr-5 hover:text-white">Support the Project</a>
+            <a href="#" class="mr-5 hover:text-white">About Us</a>
+        </nav>
+        <a>
+            <button
+                    class="
+						inline-flex
+						items-center
+						bg-gray-800
+						border-0
+						py-1
+						px-3
+						focus:outline-none
+						hover:bg-gray-700
+						rounded
+						text-base
+						mt-4
+						md:mt-0
+					">
+                Return Home
+                <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        class="w-4 h-4 ml-1"
+                        viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </a>
+    </div>
+</header>
+
+
+<section class="text-gray-400 bg-gray-900 body-font">
+    <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col w-full mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Archive Name</h1>
+            <i><h1 class="text-2xl font-medium title-font mb-4 text-white" style="font-size: 100%; color: #8e8e8e;">
+                Location -> "/archive-soi284/"</h1></i>
+        </div>
+
+        <div class="flex flex-wrap -m-4 text-center">
+
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                <div class="border-2 border-gray-800 px-4 py-6 rounded-lg" style="width: 65%">
+                    <!--class="text-indigo-400 w-12 h-12 mb-3 inline-block" -->
+                    <i class="far fa-file fa-3x"></i>
+                    <br>
+                    <br>
+
+                    <p class="leading-relaxed">document.txt</p>
+                    <br>
+                    <div style="text-align: left; font-size: 13px">
+                        <p class="leading-relaxed">Upload Date: 25/05/2021</p>
+                        <p class="leading-relaxed">File Type: TXT</p>
+                        <p class="leading-relaxed">File Size: 20KB</p>
+                    </div>
+                    <br>
+                    <a>
+                        <button class="     inline-flex
+                                            items-center
+                                            bg-gray-800
+                                            border-0
+                                            py-1
+                                            px-3
+                                            focus:outline-none
+                                            hover:bg-gray-700
+                                            rounded
+                                            text-base
+                                            mt-4
+                                            md:mt-0">
+                            Download File
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                <div class="border-2 border-gray-800 px-4 py-6 rounded-lg" style="width: 65%">
+                    <!--class="text-indigo-400 w-12 h-12 mb-3 inline-block" -->
+                    <i class="far fa-folder fa-3x"></i>
+                    <br>
+                    <br>
+
+                    <p class="leading-relaxed">confidential</p>
+                    <br>
+                    <div style="text-align: left; font-size: 13px">
+                        <p class="leading-relaxed">Total Files: 10</p>
+                    </div>
+                    <br><br>
+                    <a>
+                        <button class="     inline-flex
+                                            items-center
+                                            bg-gray-800
+                                            border-0
+                                            py-1
+                                            px-3
+                                            focus:outline-none
+                                            hover:bg-gray-700
+                                            rounded
+                                            text-base
+                                            mt-4
+                                            md:mt-0">
+                            Open Folder
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</section>
+<br><br><br><br><br>
+
+<footer
+        class="text-gray-400 bg-gray-900 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+            <span class="ml-3 text-xl">[AnonArchive]</span>
+        </a>
+        <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2021
+            AnonArchive
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+				  <a href="#" class="mr-5 hover:text-white">Support the Project</a>
+
+			  </span>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+			rel="stylesheet"/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"/>
+		<!-- <link rel="stylesheet" href="assets/style.css"> -->
+		<title>Welcome - AnonArchive</title>
+
+		<style>
+		.tilt-title {
+			transition: transform 250ms ease-in-out;
+		}
+
+		.tilt-title:hover {
+			transform: rotate(-3deg);
+		}
+		</style>
+	</head>
+	<body class="bg-gray-900">
+		<header class="text-gray-400 bg-gray-900 body-font">
+			<div
+				class="
+					container
+					mx-auto
+					flex flex-wrap
+					p-5
+					flex-col
+					md:flex-row
+					items-center
+				">
+				<a
+					class="
+						flex
+						title-font
+						font-medium
+						items-center
+						text-white
+						mb-4
+						md:mb-0
+					">
+					<span class="ml-3 text-xl tilt-title">[AnonArchive]</span>
+				</a>
+				<nav
+					class="
+						md:mr-auto
+						md:ml-4
+						md:py-1
+						md:pl-4
+						md:border-l md:border-gray-700
+						flex flex-wrap
+						items-center
+						text-base
+						justify-center
+					">
+					<a href="#" class="mr-5 hover:text-white">How it works</a>
+					<a href="#" class="mr-5 hover:text-white">Data Collection</a>
+					<a href="#" class="mr-5 hover:text-white">Support the Project</a>
+					<a href="#" class="mr-5 hover:text-white">About Us</a>
+				</nav>
+				<a>
+					<button
+							class="
+						inline-flex
+						items-center
+						bg-gray-800
+						border-0
+						py-1
+						px-3
+						focus:outline-none
+						hover:bg-gray-700
+						rounded
+						text-base
+						mt-4
+						md:mt-0
+					">
+						Create Archive
+						<svg
+								fill="none"
+								stroke="currentColor"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								class="w-4 h-4 ml-1"
+								viewBox="0 0 24 24">
+							<path d="M5 12h14M12 5l7 7-7 7"></path>
+						</svg>
+					</button>
+				</a>
+			</div>
+		</header>
+
+		<section class="text-gray-400 bg-gray-900 body-font">
+			<div
+				class="
+					container
+					mx-auto
+					flex flex-col
+					px-5
+					py-24
+					justify-center
+					items-center
+				">
+				<div
+					class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
+					<h1
+						class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+						Enter Archive Public Key
+					</h1>
+					<p class="mb-8 leading-relaxed">
+						In order to access an archive, you must know the unique archive public key. <br>This is how we know what archive to take you to.
+					</p>
+					<div class="flex w-full justify-center items-end">
+						<div
+							class="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
+							<label for="hero-field" class="leading-7 text-sm text-gray-400">
+								Keys are case sensitive!
+							</label>
+							<input
+								type="text"
+								id="hero-field"
+								name="hero-field"
+								class="
+									w-full
+									bg-gray-800
+									rounded
+									border
+									bg-opacity-40
+									border-gray-700
+									focus:ring-2 focus:ring-indigo-900
+									focus:bg-transparent
+									focus:border-indigo-500
+									text-base
+									outline-none
+									text-gray-100
+									py-1
+									px-3
+									leading-8
+									transition-colors
+									duration-200
+									ease-in-out
+								"/>
+						</div>
+						<button
+							class="
+								inline-flex
+								text-white
+								bg-indigo-500
+								border-0
+								py-2
+								px-6
+								focus:outline-none
+								hover:bg-indigo-600
+								rounded
+								text-lg">
+							Search
+						</button>
+					</div>
+				</div>
+				<section>
+					<div class="flex flex-col text-center w-full">
+						<h1 class="text-xl font-medium title-font mb-2 text-white">Support The Project</h1>
+						<p class="lg:w-2/3 mx-auto leading-relaxed text-base">Help us create a safer way to store and share data by donating to the project</p>
+						<br>
+						<p><span style="color: #f7931a;">Bitcoin:</span> <span>1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2</span></p> 
+						<p><span style="color: #454a74;">Ethereum:</span> <span>0x89205A3A3b2A69De6Dbf7f01ED13B2108B2c43e7</span></p> 
+					  </div>
+				</section>
+			</div>
+		</section>
+		<hr style="border: 1px solid #252525;">
+
+
+		<section class="text-gray-400 bg-gray-900 body-font">
+			<div class="container px-5 py-24 mx-auto">
+			  <div class="flex flex-col text-center w-full mb-20">
+				<h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Our Platform Statistics</h1>
+				<p class="lg:w-2/3 mx-auto leading-relaxed text-base">You can find and view a few of our platform statistics here, ranging from the number of archives on the platform and the number of downloads combined.</p>
+			  </div>
+			  <div class="flex flex-wrap -m-4 text-center">
+				<div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+				  <div class="border-2 border-gray-800 px-4 py-6 rounded-lg">
+					<!--class="text-indigo-400 w-12 h-12 mb-3 inline-block" -->
+					<h2 class="title-font font-medium text-3xl text-white">1</h2>
+					<p class="leading-relaxed">Storage Servers</p>
+				  </div>
+				</div>
+				<div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+				  <div class="border-2 border-gray-800 px-4 py-6 rounded-lg">
+					<h2 class="title-font font-medium text-3xl text-white">4.3K</h2>
+					<p class="leading-relaxed">Downloads</p>
+				  </div>
+				</div>
+				<div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+				  <div class="border-2 border-gray-800 px-4 py-6 rounded-lg">
+					<h2 class="title-font font-medium text-3xl text-white">1.3k</h2>
+					<p class="leading-relaxed">Files</p>
+				  </div>
+				</div>
+				<div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+				  <div class="border-2 border-gray-800 px-4 py-6 rounded-lg">
+					<h2 class="title-font font-medium text-3xl text-white">3.9k</h2>
+					<p class="leading-relaxed">Archives</p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </section>
+
+
+
+		<footer class="text-gray-400 bg-gray-900 body-font">
+			<div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+			  <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+				<span class="ml-3 text-xl">[AnonArchive]</span>
+			  </a>
+			  <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2021 AnonArchive
+			  </p>
+			  <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+				  <a href="#" class="mr-5 hover:text-white">Support the Project</a>
+
+			  </span>
+			</div>
+		  </footer>
+	</body>
+</html>
